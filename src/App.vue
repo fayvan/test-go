@@ -1,7 +1,9 @@
 <template>
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="hello xiaogou!"/>
+    <HelloWorld msg="hello 住!" />
+    <p>77 
+       77</p>
   </div>
 </template>
 
@@ -12,7 +14,7 @@ export default {
   name: 'App',
   components: {
     HelloWorld
-  }
+  },
 }
 </script>
 
