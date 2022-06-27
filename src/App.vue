@@ -1,9 +1,10 @@
 <template>
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="hello gougou" />
-    <p>77 
-       77</p>
+    <HelloWorld msg="hello exin" />
+    <!-- <p> {{foo}} </p> -->
+    <!--这里foo不会更新-->
+    <button v-on:click="foo = 'baz'">Change it</button>
   </div>
 </template>
 
