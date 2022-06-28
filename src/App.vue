@@ -4,9 +4,10 @@
     <HelloWorld msg="hello exin" />
     <!-- <p> {{foo}} </p> -->
     <!--这里foo不会更新-->
-    <button v-on:click="foo = 'baz'">Change it</button>
+    <button v-on:click="msg+=1">{{msg}}</button>
   </div>
 </template>
+
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
@@ -16,6 +17,11 @@ export default {
   components: {
     HelloWorld
   },
+  data(){
+    return {
+      msg: 2
+    }
+  }
 }
 </script>
 
